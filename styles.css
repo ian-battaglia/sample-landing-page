@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 0px 48px;
+}
+
+.header h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header a {
+    font-weight: 200;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 32px 48px;
+    gap: 24px;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.info-card-1, .info-card-2, .info-card-3, .info-card-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.info img {
+    width: 100px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.info h2 {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0px 200px;
+}
